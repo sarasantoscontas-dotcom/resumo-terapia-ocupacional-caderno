@@ -280,6 +280,58 @@
     });
 
 
+    // Assemble small groups of loose notes, matching the reference composition.
+    document.querySelectorAll('.paper-note-board').forEach(board=>{
+      if(board.dataset.collageReady)return;
+      board.dataset.collageReady='true';
+      const notes=Array.from(board.children);
+      board.classList.add('note-collage-collection');
+      for(let i=0;i<notes.length;i+=5){
+        const cluster=document.createElement('div');cluster.className='note-collage';
+        notes.slice(i,i+5).forEach((note,j)=>{note.classList.add('collage-note');note.dataset.collagePosition=String(j);cluster.append(note);});
+        board.append(cluster);
+      }
+    });
+    const arrangeCollages=()=>{
+      document.querySelectorAll('.note-collage').forEach(cluster=>{
+        const notes=Array.from(cluster.children);if(!notes.length)return;
+        const w=cluster.clientWidth,narrow=w<310,cardWidth=narrow?w:Math.floor(w*.51),offset=narrow?0:Math.min(35,w*.09);
+        let bottom=0,upperBottom=0,centerBottom=0;
+        notes.forEach((note,i)=>{
+          const center=i===2&&notes.length>=3;
+          note.style.width=(center&&!narrow?Math.floor(w*.84):cardWidth)+'px';
+          note.style.left=(narrow?0:center?Math.floor(w*.08):i%2===0?0:w-cardWidth)+'px';
+          let y=0;
+          if(narrow)y=bottom+(i?30:0);
+          else if(i===1)y=offset;
+          else if(i===2)y=upperBottom+28;
+          else if(i===3)y=centerBottom+31;
+          else if(i===4)y=centerBottom+31+offset;
+          note.style.top=y+'px';
+          const end=y+note.offsetHeight;
+          bottom=Math.max(bottom,end);
+          if(i<2)upperBottom=Math.max(upperBottom,end);
+          if(i===2)centerBottom=end;
+        });
+        cluster.style.height=(bottom+30)+'px';
+      });
+    };
+    let collageFrame;
+    const refreshCollages=()=>{cancelAnimationFrame(collageFrame);collageFrame=requestAnimationFrame(arrangeCollages);};
+    refreshCollages();
+    if(document.fonts?.ready)document.fonts.ready.then(refreshCollages);
+    window.addEventListener('resize',refreshCollages,{passive:true});
+    if('ResizeObserver' in window){const noteObserver=new ResizeObserver(refreshCollages);document.querySelectorAll('.note-collage,.collage-note').forEach(node=>noteObserver.observe(node));}
+    document.querySelectorAll('main section').forEach(area=>{
+      const title=area.querySelector('h2')?.textContent||'';
+      if(!title.includes('Páginas do caderno'))return;
+      area.querySelectorAll('article').forEach(row=>{
+        const heading=row.querySelector('h3');const copy=heading?.parentElement;
+        if(copy&&copy.tagName==='DIV'&&!copy.closest('figure')){copy.classList.add('living-paper','page-copy-note');copy.dataset.paperLabel='Estudo · prática · formação';copy.dataset.paperTone=String(Array.from(row.parentElement.children).indexOf(row)%6);}
+      });
+    });
+
+
     // Remove decorative indexing without changing dates, schedules or course periods.
     document.querySelectorAll('main span, main div').forEach(node=>{
       if(node.children.length||node.closest('.agenda-lab'))return;
