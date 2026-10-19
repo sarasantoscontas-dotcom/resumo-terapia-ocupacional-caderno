@@ -44,6 +44,8 @@
     // Enrich the fourteen retained examples rather than replacing their contents.
     const sheetSection=sectionFor('Veja como chega');
     if(sheetSection){
+      sheetSection.classList.add('sample-sheet-section');
+      sheetSection.querySelectorAll('.space-y-12>.max-w-3xl').forEach(frame=>frame.classList.add('sample-sheet-frame'));
       const sheetTitles=Array.from(sheetSection.querySelectorAll('h3')).slice(0,14);
       sheetTitles.forEach((h,i)=>{
         const frame=h.closest('.max-w-3xl')||h.closest('article')||h.parentElement.parentElement;
@@ -51,7 +53,7 @@
         const block=el(`<div class="sheet-reading"><span class="more-kicker">Leitura complementar</span><h3>${esc(item.title)}</h3><p>${esc(item.lead)}</p>${blocks(item.blocks)}</div>`);
         frame.append(block);
       });
-      const body=`<div class="sheet-library">${data.sheets.map((s,i)=>`<article class="study-sheet tone-${i%6}"><header><span class="sheet-number">Ficha de estudo</span><span>${esc(s.discipline)}</span><h3>${esc(s.title)}</h3></header><div class="sheet-body"><p class="sheet-lead">${esc(s.lead)}</p><div class="sheet-tags">${s.keywords.map(k=>`<span>${esc(k)}</span>`).join('')}</div>${blocks(s.blocks)}<footer>Do conceito à revisão · Caderno de Terapia Ocupacional</footer></div></article>`).join('')}</div>`;
+      const body=`<div class="sheet-library">${data.sheets.map((s,i)=>`<article class="study-sheet tone-${i%6}"><header><span class="sheet-number">Ficha de estudo</span><span>${esc(s.discipline)}</span><h3>${esc(s.title)}</h3></header><div class="sheet-body"><p class="sheet-lead">${esc(s.lead)}</p><div class="sheet-tags">${(s.keywords||[]).map(k=>`<span>${esc(k)}</span>`).join('')}</div>${blocks(s.blocks)}<footer>Do conceito à revisão · Caderno de Terapia Ocupacional</footer></div></article>`).join('')}</div>`;
       sheetSection.after(el(section('Mais fichas, mais leitura','Abra o assunto. Entenda as relações.','Uma seleção ampliada de fichas com conceitos, mecanismos e relações entre disciplinas. Os textos ficam abertos para leitura, sem precisar avançar por um carrossel.',body)));
     }
 
