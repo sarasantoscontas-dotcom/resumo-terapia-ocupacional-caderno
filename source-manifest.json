@@ -6,8 +6,8 @@
   },
   {
     "path": "404.html",
-    "bytes": 1929,
-    "sha256": "6c5395ace95f300a43994dec22b16af9d5621a27af8f4b8f0fd6a9a8666e4533"
+    "bytes": 1959,
+    "sha256": "81fe6e8c713644fc7f4792a8a43a7df29422f75c6b4bf823077619e20955f2cb"
   },
   {
     "path": "README.md",
@@ -51,8 +51,8 @@
   },
   {
     "path": "index.html",
-    "bytes": 1929,
-    "sha256": "6c5395ace95f300a43994dec22b16af9d5621a27af8f4b8f0fd6a9a8666e4533"
+    "bytes": 1959,
+    "sha256": "81fe6e8c713644fc7f4792a8a43a7df29422f75c6b4bf823077619e20955f2cb"
   },
   {
     "path": "package.json",
