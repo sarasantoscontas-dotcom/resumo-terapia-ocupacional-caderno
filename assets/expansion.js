@@ -178,6 +178,30 @@
 
     }
 
+    const openingSection=document.querySelector('main>section');
+    if(openingSection&&!document.getElementById('mural-do-caderno')){
+      const muralCards=[
+        ['flashcard · fundamentos','Ocupação & cotidiano','Ocupação é só trabalho?','Também envolve autocuidado, estudo, brincar, descanso, lazer e participação social. O significado depende da história e do contexto da pessoa.','conceito · contexto'],
+        ['ficha de estudo · avaliação','Perfil ocupacional','Comece pelo que importa.','Conheça as ocupações valorizadas, a rotina, as prioridades e as barreiras relatadas. Organize perguntas que ajudem a compreender a participação.','escuta · prioridades'],
+        ['resumo · análise de atividades','Atividade & demandas','A tarefa tem uma lógica.','Relacione objetivo, etapas, materiais, espaço e demandas motoras, processuais e sociais. Explique como essas relações aparecem no exemplo estudado.','sequência · ambiente'],
+        ['caso acadêmico · cotidiano','Participação & escolhas','Preparar uma refeição.','Em um cenário fictício, observe o sentido dessa ocupação, a organização dos objetos e os apoios disponíveis. Separe observação de interpretação.','situação fictícia'],
+        ['flashcard · desenvolvimento','Infância & brincar','Brincar é uma ocupação.','Considere significado, oportunidades, preferências e participação da criança. Relacione a atividade aos contextos familiares, escolares e comunitários.','desenvolvimento · contexto'],
+        ['ficha de estudo · recursos','Tecnologia assistiva','O recurso precisa fazer sentido.','Conecte pessoa, atividade, ambiente e objetivo de participação. O estudo do recurso inclui contexto de uso e acompanhamento, além das características do objeto.','recurso · participação'],
+        ['resumo · modelos de TO','Referenciais & raciocínio','Uma lente para organizar ideias.','Os modelos ajudam a formular perguntas e relacionar ocupação, pessoa e contexto. Compare o que cada referencial destaca e como sustenta a análise acadêmica.','comparar · justificar'],
+        ['ficha de revisão · saúde mental','Rotina & projetos de vida','O cotidiano também conta.','Relacione vínculos, autocuidado, estudo, trabalho, lazer e participação. Considere os interesses e o contexto, sem reduzir a pessoa a um diagnóstico.','história · participação'],
+        ['caso acadêmico · acessibilidade','Ambiente & oportunidades','Onde está a barreira?','Em uma situação fictícia de participação em aula, identifique fatores físicos, comunicacionais, sociais e organizacionais que facilitam ou dificultam o envolvimento.','barreiras · facilitadores'],
+        ['resumo · envelhecimento','Gerontologia & cotidiano','Uma rotina com significado.','Considere papéis, escolhas, redes de apoio e atividades valorizadas. Evite tratar envelhecimento como uma experiência única para todas as pessoas.','singularidade · contexto'],
+        ['plano de revisão · concursos','Edital & assuntos','A dúvida ganha um destino.','Localize o tópico no edital, tente responder ao cartão e registre o motivo da dificuldade. Volte ao resumo antes de programar a próxima retomada.','ler · recuperar · conferir'],
+        ['agenda · semana acadêmica','Aula, prova & entrega','Um prazo em pequenas etapas.','Separar fontes na segunda, desenvolver o texto na quarta e revisar o arquivo antes da entrega. O compromisso final conversa com a preparação da semana.','exemplo de planejamento'],
+        ['registro · estágio supervisionado','Prática & aprendizagem','Depois da atividade, reflita.','Organize objetivo, participação acadêmica, aprendizados e dúvidas para a supervisão. Preserve o foco formativo e não inclua dados identificáveis de pessoas.','registro · feedback'],
+        ['ficha de leitura · pesquisa','Fonte & argumento','O artigo responde ao quê?','Identifique pergunta, método, resultados e limitações. Relacione cada anotação à fonte consultada e diferencie achado apresentado de interpretação própria.','leitura crítica'],
+        ['plano de trabalho · TCC','Pergunta & percurso','Seu projeto em construção.','Delimite tema e objetivos, organize fichamentos e reserve etapas de escrita. Leve decisões e dúvidas específicas para o encontro com a orientação.','pergunta · método · escrita'],
+        ['portfólio · formação','Experiências & próximos passos','Seu percurso merece registro.','Reúna atividades, produções e feedbacks. Explique sua participação e o que aprendeu para conectar o semestre atual às próximas experiências de formação.','aprender · registrar · retomar']
+      ];
+      openingSection.after(el(`<section id="mural-do-caderno" class="floating-mural" aria-labelledby="mural-title"><div class="mural-wrap"><header class="mural-heading"><span class="mural-script">um caderno aberto em pequenas conexões</span><span class="mural-label">Estudo, prática e organização em Terapia Ocupacional</span><h2 id="mural-title">Seu próximo assunto<br>já está aberto.</h2><p>Fichas, flashcards e situações acadêmicas para visualizar como os conteúdos se conectam à sua rotina. Leia o conceito, reconheça o contexto e leve uma pergunta mais clara para o estudo.</p></header><div class="mural-card-grid">${muralCards.map(([kind,tab,title,body,foot],i)=>`<article class="mural-paper mural-tone-${i%6}"><span class="mural-tape" aria-hidden="true"></span><span class="mural-tab">${esc(tab)}</span><small class="mural-kind">${esc(kind)}</small><h3>${esc(title)}</h3><p>${esc(body)}</p><footer>${esc(foot)}</footer></article>`).join('')}</div><footer class="mural-takeaway"><span>o conceito fica mais claro quando encontra um contexto</span><p>Do primeiro contato com a disciplina à revisão para a prova, as fichas ajudam a organizar relações e a escolher o próximo passo de aprendizagem.</p></footer></div></section>`));
+    }
+
+
     const offerSection=document.getElementById('oferta');
     if(offerSection&&!document.getElementById('bonus-flashcards')){
       offerSection.before(el(`<section id="bonus-flashcards" class="bonus-section" aria-labelledby="bonus-title">
