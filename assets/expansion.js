@@ -258,6 +258,18 @@
     }
 
 
+    // Expand the paper-card identity without replacing any approved text or node.
+    const paperSections=[['Benefícios práticos','Benefícios no dia a dia'],['Grade do curso','Meu percurso na graduação'],['Para quem é o caderno','Meu momento de formação'],['Organização para residência','Residência & concursos'],['Páginas do caderno','Por dentro do caderno'],['Três modelos de TCC','Pesquisa & próximos passos'],['Perguntas frequentes','Seu caderno, explicado'],['Grandes áreas','Conexões de aprendizagem']];
+    paperSections.forEach(([title,label])=>{
+      const area=sectionFor(title);if(!area)return;
+      area.classList.add('paper-scene');
+      const candidates=new Set(area.querySelectorAll('article:not(.screen-example),figure,.period-card,.benefit-extra,.faq-answer-card'));
+      area.querySelectorAll('div.border').forEach(node=>{if(node.querySelector('h3,h4')&&!node.querySelector('article,figure,.screen-frame'))candidates.add(node);});
+      candidates.forEach((card,i)=>{if(card.tagName==='ARTICLE'&&card.querySelector('figure'))return;if(card.closest('.screen-frame'))return;card.classList.add('living-paper');card.dataset.paperTone=String(i%6);card.dataset.paperLabel=label;card.style.setProperty('--paper-turn',`${i%2===0?-.8:.8}deg`);card.style.setProperty('--paper-delay',`${-(i%7)}s`);});
+    });
+    document.querySelectorAll('.agenda-method-card,.agenda-connection-card,.agenda-panel,.agenda-note,.agenda-day-story,.preview-explained,.plan-example').forEach((card,i)=>{card.classList.add('living-paper');card.dataset.paperTone=String(i%6);card.dataset.paperLabel=card.classList.contains('agenda-day-story')?'Uma semana com contexto':card.classList.contains('plan-example')?'Meu plano de aprendizagem':'Estudo & organização';card.style.setProperty('--paper-turn',`${i%2===0?-.65:.65}deg`);card.style.setProperty('--paper-delay',`${-(i%7)}s`);});
+
+
     // Remove decorative indexing without changing dates, schedules or course periods.
     document.querySelectorAll('main span, main div').forEach(node=>{
       if(node.children.length||node.closest('.agenda-lab'))return;
