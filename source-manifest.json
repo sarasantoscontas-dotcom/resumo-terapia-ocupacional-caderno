@@ -21,8 +21,8 @@
   },
   {
     "path": "assets/app.js",
-    "bytes": 460405,
-    "sha256": "318fb03bc82c9d849b62e3139cb302363010d68644cc27d9cfb597bc652180bd"
+    "bytes": 460515,
+    "sha256": "791015a171d1b5182b8c667e8a71a044214324e554f09139535afaee34d2089a"
   },
   {
     "path": "assets/expansion-content.json",
@@ -76,7 +76,7 @@
   },
   {
     "path": "assets/modern.css",
-    "bytes": 9437,
-    "sha256": "f0aea87133d68902b17a13a3a475368cc6af497f638aa2ffc0b264121836ed29"
+    "bytes": 15767,
+    "sha256": "5e93b86699a02df77615fe2157dda216ba74c97531da4648afc5497963211378"
   }
 ]
