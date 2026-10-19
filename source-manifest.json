@@ -21,8 +21,8 @@
   },
   {
     "path": "assets/app.js",
-    "bytes": 468880,
-    "sha256": "aa54530ce2f282a93c179f13900db406fa157cc181370ad6d2ea08a352f34df8"
+    "bytes": 468509,
+    "sha256": "b5a5218e62e79b9a1b139e127c786c1dde678c88ae1aa9f5d043109809f0a0bb"
   },
   {
     "path": "assets/expansion-content.json",
@@ -36,8 +36,8 @@
   },
   {
     "path": "assets/expansion.js",
-    "bytes": 82127,
-    "sha256": "cb6af5cee37575b00303cf8e792bbea454f7d7382d8dfa6f18dc4e2cc452b102"
+    "bytes": 90434,
+    "sha256": "95008247513a48bacc4003d75a3b77256387b722c0c9ccbe241182d1785b7d74"
   },
   {
     "path": "assets/index-D8DMoBEj.css",
@@ -76,7 +76,7 @@
   },
   {
     "path": "assets/modern.css",
-    "bytes": 85965,
-    "sha256": "dd19bcddf953a81c8c7d98d5096671d4133ad2e0c6b5aee467fe3056b3e5e5b5"
+    "bytes": 100964,
+    "sha256": "cf7aaa053804d37dc0935b05571fd041c45564a19deede3a3b1126a732c89063"
   }
 ]
