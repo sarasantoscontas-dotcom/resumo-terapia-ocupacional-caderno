@@ -6,8 +6,8 @@
   },
   {
     "path": "404.html",
-    "bytes": 1843,
-    "sha256": "d45d47783a43e0a9086b21ba7427ae59fa0e09b5521a9c2cf83d54244ac29572"
+    "bytes": 1929,
+    "sha256": "6c5395ace95f300a43994dec22b16af9d5621a27af8f4b8f0fd6a9a8666e4533"
   },
   {
     "path": "README.md",
@@ -51,8 +51,8 @@
   },
   {
     "path": "index.html",
-    "bytes": 1843,
-    "sha256": "d45d47783a43e0a9086b21ba7427ae59fa0e09b5521a9c2cf83d54244ac29572"
+    "bytes": 1929,
+    "sha256": "6c5395ace95f300a43994dec22b16af9d5621a27af8f4b8f0fd6a9a8666e4533"
   },
   {
     "path": "package.json",
@@ -73,5 +73,10 @@
     "path": "vercel.json",
     "bytes": 245,
     "sha256": "1db3316eadac52b70580d2183b4bbe2fa05982d21aadfd55a51d85392e5177d3"
+  },
+  {
+    "path": "assets/modern.css",
+    "bytes": 9437,
+    "sha256": "f0aea87133d68902b17a13a3a475368cc6af497f638aa2ffc0b264121836ed29"
   }
 ]
