@@ -1,0 +1,11 @@
+{
+  "name": "resumo-terapia-ocupacional-caderno",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check assets/app.js && node --check assets/expansion.js",
+    "verify": "node scripts/verify.mjs"
+  }
+}
