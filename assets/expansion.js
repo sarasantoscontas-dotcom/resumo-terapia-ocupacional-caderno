@@ -270,6 +270,16 @@
     document.querySelectorAll('.agenda-method-card,.agenda-connection-card,.agenda-panel,.agenda-note,.agenda-day-story,.preview-explained,.plan-example').forEach((card,i)=>{card.classList.add('living-paper');card.dataset.paperTone=String(i%6);card.dataset.paperLabel=card.classList.contains('agenda-day-story')?'Uma semana com contexto':card.classList.contains('plan-example')?'Meu plano de aprendizagem':'Estudo & organização';card.style.setProperty('--paper-turn',`${i%2===0?-.65:.65}deg`);card.style.setProperty('--paper-delay',`${-(i%7)}s`);});
 
 
+    // Group the existing approved cards into the loose, staggered note layout.
+    document.querySelectorAll('.paper-scene,.agenda-method-grid,.agenda-connection-grid,.agenda-panels,.screens-grid').forEach(area=>{
+      area.querySelectorAll('.living-paper').forEach(card=>{
+        const parent=card.parentElement;if(!parent)return;
+        const children=Array.from(parent.children);
+        if(children.length>1&&children.every(node=>node.classList.contains('living-paper')))parent.classList.add('paper-note-board');
+      });
+    });
+
+
     // Remove decorative indexing without changing dates, schedules or course periods.
     document.querySelectorAll('main span, main div').forEach(node=>{
       if(node.children.length||node.closest('.agenda-lab'))return;
