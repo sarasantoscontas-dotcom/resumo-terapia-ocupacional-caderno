@@ -178,6 +178,25 @@
 
     }
 
+    const offerSection=document.getElementById('oferta');
+    if(offerSection&&!document.getElementById('bonus-flashcards')){
+      offerSection.before(el(`<section id="bonus-flashcards" class="bonus-section" aria-labelledby="bonus-title">
+        <div class="bonus-layout">
+          <header class="bonus-intro"><span class="bonus-eyebrow">Bônus da compra de hoje</span><span class="bonus-script">mais perguntas para a sua próxima revisão</span><h2 id="bonus-title">Mais <strong>1.600 flashcards</strong><br>gratuitos no seu caderno.</h2><p>Comprando hoje o Caderno de Terapia Ocupacional, você ganha mais 1.600 flashcards extras, incluídos gratuitamente no próprio caderno, para ampliar a revisão dos conteúdos e preparar suas provas teóricas.</p><div class="bonus-tags"><span>Sem custo adicional</span><span>Incluídos no caderno</span><span>Revisão por assunto</span></div><aside class="bonus-note"><span>o resumo explica · o flashcard retoma</span><p>Leia a pergunta, tente responder e confira a explicação. Use as dúvidas para escolher qual assunto merece voltar ao estudo antes da prova.</p></aside></header>
+          <div class="bonus-collection"><div class="bonus-collection-head"><span>Combos de flashcards gratuitos</span><h3>Revisão teórica com foco em cada tema.</h3><p>Um reforço para recuperar conceitos, comparar ideias e relacionar os assuntos da formação.</p></div><div class="bonus-combos">
+            <article class="bonus-combo"><span class="bonus-card-tab">Fundamentos</span><h4>Ocupação, cotidiano e participação</h4><p>Conceitos de atividade e ocupação, significado, papéis, hábitos e rotinas para revisar a base da Terapia Ocupacional.</p><span class="bonus-card-footer">Recordar definições e explicar relações</span></article>
+            <article class="bonus-combo"><span class="bonus-card-tab">Modelos & avaliação</span><h4>Do referencial ao raciocínio</h4><p>Modelos, perfil ocupacional, prioridades e contexto para organizar as ideias e distinguir conceitos nas questões teóricas.</p><span class="bonus-card-footer">Comparar conceitos com clareza</span></article>
+            <article class="bonus-combo"><span class="bonus-card-tab">Análise de atividades</span><h4>Sequência, demandas e contexto</h4><p>Etapas, materiais, ambiente e demandas de uma atividade, conectando a explicação teórica às situações acadêmicas.</p><span class="bonus-card-footer">Reconstruir o raciocínio do tema</span></article>
+            <article class="bonus-combo"><span class="bonus-card-tab">Ciclos de vida</span><h4>Infância, vida adulta e envelhecimento</h4><p>Brincar, autocuidado, estudo, trabalho, lazer e participação para relacionar as ocupações aos diferentes momentos da vida.</p><span class="bonus-card-footer">Conectar assuntos entre disciplinas</span></article>
+            <article class="bonus-combo"><span class="bonus-card-tab">Recursos & contextos</span><h4>Acessibilidade e tecnologia assistiva</h4><p>Barreiras, facilitadores, recursos e contextos de uso, com atenção à participação e às perguntas que orientam a análise.</p><span class="bonus-card-footer">Diferenciar recurso, objetivo e contexto</span></article>
+            <article class="bonus-combo"><span class="bonus-card-tab">Formação & pesquisa</span><h4>Saúde coletiva, ética e método</h4><p>Conceitos para revisar políticas, atuação em rede, documentação, leitura crítica e organização da pesquisa acadêmica.</p><span class="bonus-card-footer">Revisar fundamentos e interpretação</span></article>
+          </div></div>
+          <footer class="bonus-purchase"><div><span>Seu caderno + bônus de flashcards</span><h3>Mais revisão, pelo mesmo valor.</h3><p>R$ 29,99 em pagamento único. Os 1.600 flashcards extras da compra de hoje entram gratuitamente no caderno, sem cobrança adicional pelo bônus.</p></div><a href="https://pay.cakto.com.br/i2cyf2c" target="_blank" rel="noopener noreferrer">Comprar com o bônus · R$ 29,99 <span aria-hidden="true">↗</span></a></footer>
+        </div>
+      </section>`));
+    }
+
+
     // Remove decorative indexing without changing dates, schedules or course periods.
     document.querySelectorAll('main span, main div').forEach(node=>{
       if(node.children.length||node.closest('.agenda-lab'))return;
