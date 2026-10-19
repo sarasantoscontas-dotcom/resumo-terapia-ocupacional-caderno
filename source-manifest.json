@@ -21,8 +21,8 @@
   },
   {
     "path": "assets/app.js",
-    "bytes": 468509,
-    "sha256": "b5a5218e62e79b9a1b139e127c786c1dde678c88ae1aa9f5d043109809f0a0bb"
+    "bytes": 467953,
+    "sha256": "c44076faaf31aeeb1f138f3410a71d015baaf7091fe69e438878e167fff21c73"
   },
   {
     "path": "assets/expansion-content.json",
@@ -36,8 +36,8 @@
   },
   {
     "path": "assets/expansion.js",
-    "bytes": 90434,
-    "sha256": "95008247513a48bacc4003d75a3b77256387b722c0c9ccbe241182d1785b7d74"
+    "bytes": 92753,
+    "sha256": "953dd9fe580e9eb8096900a5551709571bdf71cd559d120549365370921307ab"
   },
   {
     "path": "assets/index-D8DMoBEj.css",
