@@ -36,8 +36,8 @@
   },
   {
     "path": "assets/expansion.js",
-    "bytes": 108878,
-    "sha256": "6651f0a23dca61923bdd7ee788e0e3d7c4bd7bee7344b6e7cd075c5fae50b6d2"
+    "bytes": 117736,
+    "sha256": "43f7c8149467efabfea92c2425798cc2cff98a2d27e38950488b78de908335c5"
   },
   {
     "path": "assets/index-D8DMoBEj.css",
@@ -76,7 +76,7 @@
   },
   {
     "path": "assets/modern.css",
-    "bytes": 110688,
-    "sha256": "bfedb390a2d58fc9983a3f151a951e273d4070515f44341e350cae42d90e4433"
+    "bytes": 112975,
+    "sha256": "98fc95c971e3e83124d5f7b23b2ccdeb77e2d3e2ef57fde6c0c403a421d859d6"
   }
 ]
