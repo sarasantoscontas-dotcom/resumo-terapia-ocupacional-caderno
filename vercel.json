@@ -8,6 +8,10 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "preview/to-resumos-aprofundados-2026-10-22": false
+    }
+  }
 }
-

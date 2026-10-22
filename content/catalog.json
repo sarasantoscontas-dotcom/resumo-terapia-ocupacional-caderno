@@ -1,0 +1,760 @@
+{
+  "disciplines": [
+    [
+      "Língua Brasileira de Sinais — Libras",
+      "Comunicação e acessibilidade",
+      [
+        "Língua, cultura e identidade surda",
+        "Parâmetros dos sinais",
+        "Expressões não manuais",
+        "Alfabeto manual e datilologia",
+        "Estruturas gramaticais visuais",
+        "Variação linguística",
+        "Comunicação em contextos de cuidado",
+        "Acessibilidade e mediação por intérprete"
+      ]
+    ],
+    [
+      "Fisiologia Geral e Humana",
+      "Bases do corpo",
+      [
+        "Homeostase e sistemas de controle",
+        "Membranas e transporte celular",
+        "Potenciais elétricos e comunicação neural",
+        "Contração muscular",
+        "Fisiologia cardiovascular",
+        "Ventilação e trocas gasosas",
+        "Função renal e equilíbrio hidroeletrolítico",
+        "Digestão, metabolismo e sistema endócrino"
+      ]
+    ],
+    [
+      "Anatomia Humana e Funcional",
+      "Bases do corpo",
+      [
+        "Planos, eixos e terminologia",
+        "Ossos e articulações",
+        "Músculos e ações funcionais",
+        "Cintura escapular e membro superior",
+        "Punho, mão e preensões",
+        "Tronco e controle postural",
+        "Membro inferior e mobilidade",
+        "Relações anatômicas nas atividades cotidianas"
+      ]
+    ],
+    [
+      "Neuroanatomia e Neurofisiologia",
+      "Bases do corpo",
+      [
+        "Organização do sistema nervoso",
+        "Vias sensitivas e motoras",
+        "Córtex e funções superiores",
+        "Tronco encefálico e cerebelo",
+        "Sistema nervoso autônomo",
+        "Controle motor e aprendizagem",
+        "Plasticidade neural",
+        "Relações entre lesão, função e participação"
+      ]
+    ],
+    [
+      "Biologia Celular, Histologia e Bioquímica",
+      "Bases do corpo",
+      [
+        "Organização celular",
+        "Membranas e organelas",
+        "Tecidos epitelial e conjuntivo",
+        "Tecidos muscular e nervoso",
+        "Metabolismo energético",
+        "Proteínas e enzimas",
+        "Sinalização celular",
+        "Inflamação e reparo tecidual"
+      ]
+    ],
+    [
+      "Cinesiologia e Biomecânica",
+      "Movimento e função",
+      [
+        "Movimento e sistemas de alavancas",
+        "Força, torque e equilíbrio",
+        "Amplitude de movimento",
+        "Cadeias cinéticas",
+        "Controle postural",
+        "Análise de alcance e preensão",
+        "Ergonomia das atividades",
+        "Observação do movimento no cotidiano"
+      ]
+    ],
+    [
+      "Psicologia Geral e do Desenvolvimento",
+      "Desenvolvimento e relações",
+      [
+        "Processos psicológicos",
+        "Aprendizagem e memória",
+        "Emoções e motivação",
+        "Desenvolvimento ao longo da vida",
+        "Vínculos e relações de cuidado",
+        "Identidade e adolescência",
+        "Envelhecimento e mudanças de papéis",
+        "Relações entre sujeito, cultura e contexto"
+      ]
+    ],
+    [
+      "Desenvolvimento Infantil",
+      "Desenvolvimento e relações",
+      [
+        "Desenvolvimento motor",
+        "Exploração e brincar",
+        "Comunicação e interação",
+        "Cognição e funções executivas",
+        "Autocuidado na infância",
+        "Rotinas familiares",
+        "Participação escolar",
+        "Observação contextual do desenvolvimento"
+      ]
+    ],
+    [
+      "Linguagem e Relacionamento Interpessoal",
+      "Desenvolvimento e relações",
+      [
+        "Comunicação verbal e não verbal",
+        "Escuta e perguntas abertas",
+        "Comunicação acessível",
+        "Vínculo e enquadre",
+        "Uso terapêutico de si",
+        "Mediação de conflitos",
+        "Trabalho em grupo",
+        "Relação com familiares e equipes"
+      ]
+    ],
+    [
+      "Sociologia e Antropologia da Saúde",
+      "Sociedade e direitos",
+      [
+        "Cultura e modos de vida",
+        "Corpo e experiência de adoecimento",
+        "Desigualdades sociais",
+        "Relações de classe, raça e gênero",
+        "Redes de pertencimento",
+        "Território e circulação",
+        "Instituições e poder",
+        "Interpretações sociais da deficiência"
+      ]
+    ],
+    [
+      "História e Fundamentos da Terapia Ocupacional",
+      "Fundamentos profissionais",
+      [
+        "História da profissão",
+        "Formação no Brasil",
+        "Ocupação, atividade e cotidiano",
+        "Concepções de saúde e participação",
+        "Institucionalização e reformas",
+        "Campos de atuação",
+        "Identidade profissional",
+        "Transformações teóricas e sociais"
+      ]
+    ],
+    [
+      "Ética, Bioética e Deontologia",
+      "Fundamentos profissionais",
+      [
+        "Dignidade e direitos",
+        "Autonomia e consentimento",
+        "Beneficência e não maleficência",
+        "Justiça e equidade",
+        "Sigilo e proteção de dados",
+        "Registro e responsabilidade",
+        "Ética na comunicação profissional",
+        "Análise de situações e decisões"
+      ]
+    ],
+    [
+      "Ciência Ocupacional e Modelos de Prática",
+      "Fundamentos profissionais",
+      [
+        "Significado e organização das ocupações",
+        "Padrões e equilíbrio ocupacional",
+        "Modelo de Ocupação Humana",
+        "Pessoa, ambiente e ocupação",
+        "Identidade e participação",
+        "Justiça ocupacional",
+        "Seleção de referenciais",
+        "Relações entre teoria e raciocínio profissional"
+      ]
+    ],
+    [
+      "Análise de Atividades",
+      "Recursos e avaliação",
+      [
+        "Demandas materiais e ambientais",
+        "Sequência de ações",
+        "Exigências motoras, cognitivas e sociais",
+        "Sentido e finalidade",
+        "Observação do desempenho",
+        "Graduação da atividade",
+        "Adaptação e acessibilidade",
+        "Registro da análise e reavaliação"
+      ]
+    ],
+    [
+      "Recursos e Atividades Terapêuticas",
+      "Recursos e avaliação",
+      [
+        "Atividades cotidianas",
+        "Atividades expressivas",
+        "Processos criativos",
+        "Atividades corporais",
+        "Brincar e jogos",
+        "Oficinas e grupos",
+        "Escolha de materiais",
+        "Segurança e participação"
+      ]
+    ],
+    [
+      "Avaliação em Terapia Ocupacional",
+      "Recursos e avaliação",
+      [
+        "Perfil ocupacional",
+        "Entrevista e observação",
+        "Avaliação de desempenho",
+        "Instrumentos e propriedades de medida",
+        "Atividades de vida diária",
+        "Contextos e barreiras",
+        "Objetivos compartilhados",
+        "Resultados, satisfação e continuidade"
+      ]
+    ],
+    [
+      "Tecnologia Assistiva e Acessibilidade",
+      "Recursos e avaliação",
+      [
+        "Recursos para comunicação",
+        "Adaptações para autocuidado",
+        "Mobilidade e posicionamento",
+        "Acesso a computadores",
+        "Ambientes acessíveis",
+        "Seleção centrada no usuário",
+        "Treino em contexto real",
+        "Manutenção, uso e abandono de recursos"
+      ]
+    ],
+    [
+      "Órteses e Recursos de Posicionamento",
+      "Movimento e função",
+      [
+        "Finalidades e indicações gerais",
+        "Princípios biomecânicos",
+        "Materiais e características",
+        "Posicionamento e conforto",
+        "Integridade da pele",
+        "Uso nas atividades",
+        "Educação do usuário",
+        "Acompanhamento e ajustes"
+      ]
+    ],
+    [
+      "Terapia Ocupacional da Criança e do Adolescente",
+      "Ciclos de vida",
+      [
+        "Brincar e participação",
+        "Rotinas e autocuidado",
+        "Desenvolvimento e aprendizagem",
+        "Família e rede de cuidado",
+        "Escola e inclusão",
+        "Adolescência e projetos de vida",
+        "Apoios e comunicação",
+        "Avaliação de resultados no cotidiano"
+      ]
+    ],
+    [
+      "Processamento Sensorial e Participação",
+      "Ciclos de vida",
+      [
+        "Sistemas sensoriais",
+        "Modulação e discriminação",
+        "Respostas e contexto",
+        "Percepção e ação",
+        "Demandas ambientais",
+        "Rotinas e experiências sensoriais",
+        "Avaliação e hipóteses",
+        "Estratégias e acompanhamento da participação"
+      ]
+    ],
+    [
+      "Terapia Ocupacional em Neurologia",
+      "Reabilitação e cuidado",
+      [
+        "Acidente vascular cerebral",
+        "Lesões encefálicas",
+        "Doenças neurodegenerativas",
+        "Alterações motoras e cognitivas",
+        "Uso do membro superior",
+        "Autocuidado e mobilidade",
+        "Adaptações e apoios",
+        "Participação e reorganização da rotina"
+      ]
+    ],
+    [
+      "Terapia Ocupacional em Ortopedia e Reumatologia",
+      "Reabilitação e cuidado",
+      [
+        "Lesões musculoesqueléticas",
+        "Condições reumáticas",
+        "Dor e fadiga",
+        "Proteção articular",
+        "Conservação de energia",
+        "Função da mão",
+        "Demandas do trabalho e autocuidado",
+        "Adaptação de atividades"
+      ]
+    ],
+    [
+      "Terapia Ocupacional em Saúde Mental",
+      "Saúde e território",
+      [
+        "Sofrimento psíquico e cotidiano",
+        "Reforma psiquiátrica",
+        "Atenção psicossocial",
+        "Vínculos e contratualidade",
+        "Grupos e oficinas",
+        "Trabalho e geração de renda",
+        "Participação comunitária",
+        "Cuidado em liberdade e direitos"
+      ]
+    ],
+    [
+      "Psicopatologia",
+      "Saúde e território",
+      [
+        "Processos de percepção e pensamento",
+        "Humor e afeto",
+        "Consciência e orientação",
+        "Manifestações e sofrimento",
+        "Contexto e experiência subjetiva",
+        "Observação e comunicação",
+        "Relações com rotina e participação",
+        "Rede e cuidado interdisciplinar"
+      ]
+    ],
+    [
+      "Terapia Ocupacional em Gerontologia",
+      "Ciclos de vida",
+      [
+        "Envelhecimento e heterogeneidade",
+        "Papéis e rotinas",
+        "Cognição e vida diária",
+        "Mobilidade e prevenção de quedas",
+        "Redes de apoio",
+        "Participação social",
+        "Cuidado compartilhado",
+        "Acessibilidade e projetos de vida"
+      ]
+    ],
+    [
+      "Terapia Ocupacional nos Contextos Hospitalares",
+      "Reabilitação e cuidado",
+      [
+        "Hospitalização e cotidiano",
+        "Avaliação ocupacional",
+        "Atividades significativas no hospital",
+        "Posicionamento e recursos",
+        "Orientação a familiares",
+        "Transições e alta",
+        "Comunicação com a rede",
+        "Continuidade do cuidado"
+      ]
+    ],
+    [
+      "Cuidados Paliativos",
+      "Reabilitação e cuidado",
+      [
+        "Qualidade de vida e valores",
+        "Ocupações significativas",
+        "Conforto e conservação de energia",
+        "Autonomia e comunicação",
+        "Família e cuidadores",
+        "Adaptação de rotinas",
+        "Trabalho em equipe",
+        "Projetos e sentidos no cuidado"
+      ]
+    ],
+    [
+      "Terapia Ocupacional Social",
+      "Sociedade e direitos",
+      [
+        "Questão social e direitos",
+        "Juventudes e vulnerabilidades",
+        "Redes sociais de suporte",
+        "Oficinas e projetos coletivos",
+        "Circulação no território",
+        "Cultura e pertencimento",
+        "Acesso a bens e serviços",
+        "Participação e cidadania"
+      ]
+    ],
+    [
+      "Terapia Ocupacional na Educação",
+      "Sociedade e direitos",
+      [
+        "Participação escolar",
+        "Barreiras à aprendizagem",
+        "Rotinas e organização de materiais",
+        "Comunicação e acessibilidade",
+        "Brincar e convivência",
+        "Articulação com professores",
+        "Recursos e adaptações",
+        "Inclusão e pertencimento"
+      ]
+    ],
+    [
+      "Saúde do Trabalhador e Ergonomia",
+      "Saúde e território",
+      [
+        "Processos e organização do trabalho",
+        "Atividade real e prescrita",
+        "Riscos e adoecimento",
+        "Análise ergonômica",
+        "Reabilitação profissional",
+        "Retorno ao trabalho",
+        "Adaptações e negociação",
+        "Trabalho, identidade e direitos"
+      ]
+    ],
+    [
+      "Políticas Públicas e Sistema Único de Saúde",
+      "Saúde e território",
+      [
+        "Direito à saúde",
+        "Princípios e diretrizes do SUS",
+        "Gestão e regionalização",
+        "Atenção primária",
+        "Redes de atenção",
+        "Participação e controle social",
+        "Intersetorialidade",
+        "Planejamento e avaliação do cuidado"
+      ]
+    ],
+    [
+      "Epidemiologia e Bioestatística",
+      "Pesquisa e saúde coletiva",
+      [
+        "Pessoa, tempo e lugar",
+        "Incidência e prevalência",
+        "Mortalidade e letalidade",
+        "População e amostragem",
+        "Medidas de associação",
+        "Delineamentos de estudos",
+        "Vieses e confundimento",
+        "Interpretação de tabelas e indicadores"
+      ]
+    ],
+    [
+      "Biossegurança e Primeiros Socorros",
+      "Segurança e cuidado",
+      [
+        "Riscos no ambiente de cuidado",
+        "Precauções-padrão",
+        "Higiene das mãos",
+        "Equipamentos de proteção",
+        "Limpeza e manejo de materiais",
+        "Reconhecimento de urgências",
+        "Acionamento da emergência",
+        "Suporte básico e prevenção de acidentes"
+      ]
+    ],
+    [
+      "Saúde Coletiva e Atenção Territorial",
+      "Saúde e território",
+      [
+        "Determinantes sociais",
+        "Diagnóstico do território",
+        "Promoção da saúde",
+        "Trabalho com grupos",
+        "Visitas e atenção domiciliar",
+        "Rede de serviços",
+        "Planejamento compartilhado",
+        "Indicadores de acesso e participação"
+      ]
+    ],
+    [
+      "Farmacologia e Relações com o Desempenho",
+      "Bases do corpo",
+      [
+        "Princípios de farmacocinética",
+        "Princípios de farmacodinâmica",
+        "Classes de medicamentos",
+        "Efeitos adversos relevantes",
+        "Sonolência, atenção e equilíbrio",
+        "Interações e segurança",
+        "Observação de mudanças funcionais",
+        "Comunicação com a equipe responsável"
+      ]
+    ],
+    [
+      "Saúde da Pessoa com Deficiência",
+      "Sociedade e direitos",
+      [
+        "Modelo social da deficiência",
+        "Funcionalidade e contexto",
+        "Direitos e acessibilidade",
+        "Reabilitação e habilitação",
+        "Comunicação e decisões",
+        "Barreiras atitudinais",
+        "Redes de cuidado",
+        "Participação em diferentes ocupações"
+      ]
+    ],
+    [
+      "Saúde Sexual, Gênero e Diversidade",
+      "Desenvolvimento e relações",
+      [
+        "Sexualidade ao longo da vida",
+        "Direitos e autonomia",
+        "Diversidade de experiências",
+        "Corpo e identidade",
+        "Barreiras e discriminação",
+        "Comunicação respeitosa",
+        "Privacidade no cuidado",
+        "Participação e relações sociais"
+      ]
+    ],
+    [
+      "Metodologia Científica e Leitura Crítica",
+      "Pesquisa e saúde coletiva",
+      [
+        "Pergunta e problema de pesquisa",
+        "Objetivos e recorte",
+        "Busca bibliográfica",
+        "Métodos qualitativos e quantitativos",
+        "Produção e análise de dados",
+        "Ética em pesquisa",
+        "Citação e referências",
+        "Interpretação crítica de resultados"
+      ]
+    ]
+  ],
+  "references": [
+    [
+      "Fundamentos da profissão",
+      "CAVALCANTI, Alessandra; GALVÃO, Cláudia (org.). Terapia ocupacional: fundamentação e prática. Rio de Janeiro: Guanabara Koogan, 2007.",
+      "Conceitos, recursos, avaliação e relações entre fundamentação e prática.",
+      "Cavalcanti e Galvão (2007)"
+    ],
+    [
+      "História e formação brasileira",
+      "DE CARLO, Marysia Mara Rodrigues do Prado; BARTALOTTI, Celina Camargo (org.). Terapia ocupacional no Brasil: fundamentos e perspectivas. São Paulo: Plexus, 2001.",
+      "Formação histórica, perspectivas e construção do campo no Brasil.",
+      "De Carlo e Bartalotti (2001)"
+    ],
+    [
+      "Modelos e raciocínio",
+      "HAGEDORN, Rosemary. Fundamentos para a prática em terapia ocupacional. 3. ed. São Paulo: Roca, 2003.",
+      "Relações entre conceitos, modelos e escolhas profissionais.",
+      "Hagedorn (2003)"
+    ],
+    [
+      "Infância e adolescência",
+      "CASE-SMITH, Jane; O’BRIEN, Jane Clifford (ed.). Occupational therapy for children and adolescents. 7. ed. St. Louis: Elsevier, 2015.",
+      "Desenvolvimento, ocupações e participação de crianças e adolescentes.",
+      "Case-Smith e O’Brien (2015)"
+    ],
+    [
+      "Ocupação humana",
+      "TAYLOR, Renée R. (ed.). Kielhofner’s model of human occupation: theory and application. 5. ed. Philadelphia: Wolters Kluwer, 2017.",
+      "Volição, habituação, capacidade de desempenho e ambiente.",
+      "Taylor (2017)"
+    ],
+    [
+      "Relacionamento terapêutico",
+      "TAYLOR, Renée R. The intentional relationship: occupational therapy and use of self. Philadelphia: F. A. Davis, 2008.",
+      "Uso terapêutico de si e análise das interações no cuidado.",
+      "Taylor (2008)"
+    ],
+    [
+      "Terapia Ocupacional social",
+      "LOPES, Roseli Esquerdo; MALFITANO, Ana Paula Serrata (org.). Terapia ocupacional social: desenhos teóricos e contornos práticos. São Carlos: EdUFSCar, 2016.",
+      "Direitos, redes sociais, território e participação social.",
+      "Lopes e Malfitano (2016)"
+    ],
+    [
+      "Reabilitação e vida diária",
+      "CRUZ, Daniel Marinho Cezar da. Terapia ocupacional na reabilitação pós-acidente vascular encefálico: atividades de vida diária e interdisciplinaridade. São Paulo: Santos, 2012.",
+      "Desempenho em atividades de vida diária e cuidado interdisciplinar.",
+      "Cruz (2012)"
+    ],
+    [
+      "Domínio e processo profissional",
+      "AMERICAN OCCUPATIONAL THERAPY ASSOCIATION. Occupational therapy practice framework: domain and process — fourth edition. American Journal of Occupational Therapy, v. 74, supl. 2, p. 7412410010p1–7412410010p87, 2020.",
+      "Organização de ocupações, contextos, desempenho e processo profissional.",
+      "American Occupational Therapy Association (2020)"
+    ],
+    [
+      "Funcionalidade e contexto",
+      "WORLD HEALTH ORGANIZATION. International classification of functioning, disability and health: ICF. Geneva: WHO, 2001.",
+      "Relações entre funções, atividades, participação e fatores contextuais.",
+      "World Health Organization (2001)"
+    ],
+    [
+      "Deficiência e participação",
+      "WORLD HEALTH ORGANIZATION; WORLD BANK. World report on disability. Geneva: WHO, 2011.",
+      "Barreiras, inclusão e organização de respostas à deficiência.",
+      "World Health Organization e World Bank (2011)"
+    ],
+    [
+      "Redes de reabilitação",
+      "WORLD HEALTH ORGANIZATION. Rehabilitation in health systems. Geneva: WHO, 2017.",
+      "Reabilitação articulada à organização dos sistemas de saúde.",
+      "World Health Organization (2017)"
+    ],
+    [
+      "Ética profissional",
+      "CONSELHO FEDERAL DE FISIOTERAPIA E TERAPIA OCUPACIONAL. Resolução nº 425, de 8 de julho de 2013. Estabelece o Código de Ética e Deontologia da Terapia Ocupacional. Diário Oficial da União: seção 1, Brasília, DF, 1 ago. 2013.",
+      "Deveres, responsabilidades e relações no exercício profissional.",
+      "Conselho Federal de Fisioterapia e Terapia Ocupacional (2013)"
+    ],
+    [
+      "Direito à saúde e organização do SUS",
+      "BRASIL. Lei nº 8.080, de 19 de setembro de 1990. Dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências. Diário Oficial da União, Brasília, DF, 20 set. 1990.",
+      "Organização do SUS, atribuições e condições de produção da saúde.",
+      "Brasil (1990a)"
+    ],
+    [
+      "Participação e controle social",
+      "BRASIL. Lei nº 8.142, de 28 de dezembro de 1990. Dispõe sobre a participação da comunidade na gestão do Sistema Único de Saúde e sobre as transferências intergovernamentais de recursos financeiros na área da saúde e dá outras providências. Diário Oficial da União, Brasília, DF, 31 dez. 1990.",
+      "Conselhos, conferências e participação da comunidade na política de saúde.",
+      "Brasil (1990b)"
+    ],
+    [
+      "Saúde mental e direitos",
+      "BRASIL. Lei nº 10.216, de 6 de abril de 2001. Dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais e redireciona o modelo assistencial em saúde mental. Diário Oficial da União, Brasília, DF, 9 abr. 2001.",
+      "Direitos, proteção e redirecionamento do cuidado em saúde mental.",
+      "Brasil (2001)"
+    ],
+    [
+      "Infância, adolescência e proteção integral",
+      "BRASIL. Lei nº 8.069, de 13 de julho de 1990. Dispõe sobre o Estatuto da Criança e do Adolescente e dá outras providências. Diário Oficial da União, Brasília, DF, 16 jul. 1990.",
+      "Proteção integral, direitos e participação na infância e adolescência.",
+      "Brasil (1990c)"
+    ],
+    [
+      "Acessibilidade e inclusão",
+      "BRASIL. Lei nº 13.146, de 6 de julho de 2015. Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência. Diário Oficial da União, Brasília, DF, 7 jul. 2015.",
+      "Direitos, acessibilidade, barreiras e inclusão social.",
+      "Brasil (2015)"
+    ],
+    [
+      "Biossegurança e higiene das mãos",
+      "AGÊNCIA NACIONAL DE VIGILÂNCIA SANITÁRIA. Segurança do paciente em serviços de saúde: higienização das mãos. Brasília, DF: Anvisa, 2009.",
+      "Higiene das mãos e prevenção da transmissão de microrganismos.",
+      "Agência Nacional de Vigilância Sanitária (2009)"
+    ],
+    [
+      "Epidemiologia e vigilância",
+      "BRASIL. Ministério da Saúde. Guia de vigilância em saúde. 6. ed. rev. Brasília, DF: Ministério da Saúde, 2024. 3 v.",
+      "Vigilância, investigação e interpretação de informações de saúde.",
+      "Brasil (2024)"
+    ]
+  ],
+  "flashcards": [
+    [
+      "Fundamentos",
+      "Ocupação é sinônimo de emprego?",
+      "Não. Ocupações incluem autocuidado, educação, trabalho, brincar, lazer, descanso e participação social, conforme os sentidos e contextos da vida."
+    ],
+    [
+      "Infância",
+      "Por que observar o brincar além da coordenação motora?",
+      "Porque brincar também envolve iniciativa, imaginação, negociação, relações e participação. A execução de um movimento não representa toda a experiência."
+    ],
+    [
+      "Avaliação",
+      "O que é perfil ocupacional?",
+      "Uma compreensão da história, dos interesses, das necessidades, das rotinas e das prioridades da pessoa, construída por escuta e informações pertinentes."
+    ],
+    [
+      "Atividades",
+      "Qual a diferença entre graduar e adaptar?",
+      "Graduar modifica progressivamente demandas. Adaptar ajusta condições, recursos ou formas de realizar para ampliar desempenho e participação."
+    ],
+    [
+      "Ética",
+      "Autonomia exige independência física?",
+      "Não. Uma pessoa pode precisar de ajuda e manter poder de escolha e participação nas decisões."
+    ],
+    [
+      "SUS",
+      "Como equidade se diferencia de oferecer tudo igual?",
+      "A equidade considera necessidades e desigualdades para organizar respostas que reduzam barreiras e diferenças injustas."
+    ],
+    [
+      "Epidemiologia",
+      "Incidência mede casos novos ou todos os casos existentes?",
+      "Casos novos em uma população sob risco, durante um período definido. Casos existentes se relacionam à prevalência."
+    ],
+    [
+      "Biossegurança",
+      "Luvas substituem higiene das mãos?",
+      "Não. Elas podem se contaminar. A higiene e a troca de luvas seguem a situação e o protocolo do serviço."
+    ],
+    [
+      "Neurofuncional",
+      "O diagnóstico determina sozinho o plano de intervenção?",
+      "Não. O plano considera perfil ocupacional, avaliação, contexto, prioridades, possibilidades de apoio e resultados a acompanhar."
+    ],
+    [
+      "Tecnologia assistiva",
+      "Por que testar um recurso no ambiente de uso?",
+      "Porque acesso, conforto, rotina, manutenção e preferências podem modificar sua utilização e seus efeitos na participação."
+    ],
+    [
+      "Comunicação",
+      "Ausência de fala significa ausência de compreensão?",
+      "Não. Compreensão e expressão precisam ser avaliadas com formas acessíveis de comunicação, tempo e apoios apropriados."
+    ],
+    [
+      "Saúde mental",
+      "Um grupo é apenas várias pessoas fazendo a mesma tarefa?",
+      "Não. A experiência inclui vínculos, trocas, conflitos, papéis e possibilidades de participação construídas entre os envolvidos."
+    ],
+    [
+      "CIF",
+      "A CIF é uma técnica de tratamento?",
+      "Não. É uma classificação internacional para organizar informações sobre funcionalidade, incapacidade e fatores contextuais."
+    ],
+    [
+      "Escola",
+      "Participação escolar se resume a escrever no caderno?",
+      "Não. Inclui aprendizagem, comunicação, convivência, deslocamento, refeições, recreio, organização e pertencimento."
+    ],
+    [
+      "Gerontologia",
+      "Pessoas da mesma idade apresentam as mesmas necessidades?",
+      "Não. Envelhecimento é heterogêneo e envolve história, condições de vida, ocupações, saúde, redes e ambiente."
+    ],
+    [
+      "Atividades",
+      "Um recurso tem efeito terapêutico garantido?",
+      "Não. Sua contribuição depende da finalidade, da pessoa, do contexto, da relação e do acompanhamento dos resultados."
+    ],
+    [
+      "Ética",
+      "Consentir com o atendimento autoriza publicar uma fotografia?",
+      "Não. Registro e divulgação têm finalidades e requisitos próprios; consentimento para cuidado não equivale a autorização para exposição."
+    ],
+    [
+      "Pesquisa",
+      "Correlação demonstra causalidade?",
+      "Não. É necessário examinar temporalidade, confundimento, vieses e outras evidências."
+    ],
+    [
+      "Território",
+      "Território é apenas um limite geográfico?",
+      "Não. Abrange relações, circulação, recursos, barreiras, conflitos e pertencimentos construídos nos espaços."
+    ],
+    [
+      "Registro",
+      "Por que descrever ações em vez de chamar alguém de resistente?",
+      "Porque ações e contexto permitem compreender a situação e revisar hipóteses. Rótulos amplos podem ocultar dificuldades e barreiras."
+    ]
+  ]
+}
