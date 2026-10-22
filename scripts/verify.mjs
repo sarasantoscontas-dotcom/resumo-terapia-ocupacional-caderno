@@ -3,7 +3,7 @@ const app=fs.readFileSync('assets/app.js','utf8');const start=app.indexOf('const
 const passthrough=p=>({type:'div',props:p});const jsx=(type,props)=>typeof type==='function'?type(props):({type,props:props||{}});
 const ctx={c:{jsx,jsxs:jsx,Fragment:'fragment'},KC:passthrough,Hg:passthrough,Vg:passthrough,Qg:passthrough,Date};vm.createContext(ctx);vm.runInContext(app.slice(start,end)+';globalThis.tree=rE();',ctx);
 const nodes=[];function visit(n){if(Array.isArray(n)){n.forEach(visit);return;}if(n&&typeof n==='object'){nodes.push(n);visit(n.props?.children);}}visit(ctx.tree);
-const text=JSON.stringify(ctx.tree);assert(text.includes('Terapia Ocupacional.'));assert(text.includes('R$ 29,99'));assert(!text.includes('87,99'));assert(!text.includes('Medicina'));assert(!text.includes('Sinal de Murphy'));assert(!text.includes('Dose por peso'));
+const text=JSON.stringify(ctx.tree);assert(text.includes('Terapia Ocupacional.'));assert(text.includes('R$ 9,99'));assert(!text.includes('87,99'));assert(!text.includes('Medicina'));assert(!text.includes('Sinal de Murphy'));assert(!text.includes('Dose por peso'));
 const links=nodes.filter(n=>n.type==='a').map(n=>n.props);for(const a of links){assert(a.href.startsWith('#')||a.href==='https://pay.cakto.com.br/i2cyf2c');if(a.href.startsWith('https:')){assert.equal(a.target,'_blank');assert(a.rel.includes('noopener'));}}
 const headings=nodes.filter(n=>/^h[123]$/.test(n.type));assert(headings.length>50);
 const ids=new Set(nodes.map(n=>n.props.id).filter(Boolean));for(const a of links.filter(a=>a.href.startsWith('#')))assert(ids.has(a.href.slice(1)),a.href);
