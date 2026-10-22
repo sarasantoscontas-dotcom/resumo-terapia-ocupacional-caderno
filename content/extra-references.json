@@ -1,0 +1,58 @@
+{
+  "references": [
+    [
+      "Libras e direitos linguísticos",
+      "BRASIL. Lei nº 10.436, de 24 de abril de 2002. Dispõe sobre a Língua Brasileira de Sinais — Libras e dá outras providências. Diário Oficial da União: seção 1, Brasília, DF, 25 abr. 2002.",
+      "Reconhecimento da Libras, comunicação e direitos linguísticos.",
+      "Brasil (2002)"
+    ],
+    [
+      "Libras na formação e no cuidado",
+      "BRASIL. Decreto nº 5.626, de 22 de dezembro de 2005. Regulamenta a Lei nº 10.436, de 24 de abril de 2002, e o art. 18 da Lei nº 10.098, de 19 de dezembro de 2000. Diário Oficial da União: seção 1, Brasília, DF, 23 dez. 2005.",
+      "Formação, acessibilidade comunicacional e atendimento à comunidade surda.",
+      "Brasil (2005)"
+    ],
+    [
+      "Promoção da saúde",
+      "WORLD HEALTH ORGANIZATION. Ottawa charter for health promotion. Geneva: World Health Organization, 1986.",
+      "Políticas públicas saudáveis, ambientes favoráveis, ação comunitária e promoção da saúde.",
+      "World Health Organization (1986)"
+    ],
+    [
+      "Reabilitação e comunidade",
+      "WORLD HEALTH ORGANIZATION et al. Community-based rehabilitation: CBR guidelines. Geneva: World Health Organization, 2010.",
+      "Saúde, educação, meios de subsistência, participação social e fortalecimento comunitário.",
+      "World Health Organization et al. (2010)"
+    ]
+  ],
+  "details": [
+    {
+      "subjects": [
+        "Língua Brasileira de Sinais",
+        "Ética e Direitos",
+        "Comunicação Acessível"
+      ]
+    },
+    {
+      "subjects": [
+        "Língua Brasileira de Sinais",
+        "TO na Educação",
+        "Saúde da Pessoa com Deficiência"
+      ]
+    },
+    {
+      "subjects": [
+        "Saúde Coletiva",
+        "Políticas Públicas",
+        "Atenção Territorial"
+      ]
+    },
+    {
+      "subjects": [
+        "TO Social",
+        "Reabilitação",
+        "Saúde Coletiva"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "courses": [
+    [
+      "Atividades de Vida Diária e Instrumentais",
+      "Recursos e avaliação",
+      [
+        "Alimentação e organização da refeição",
+        "Vestir-se e escolhas pessoais",
+        "Higiene e cuidado com o corpo",
+        "Mobilidade na rotina",
+        "Compras e organização doméstica",
+        "Manejo de dinheiro e compromissos",
+        "Tipos e intensidade de ajuda",
+        "Observação no contexto de uso"
+      ],
+      "Rotina, preferências e oportunidades",
+      "Segurança e satisfação na realização",
+      "Descreva as etapas de uma atividade e diferencie ajuda física, orientação verbal e adaptação."
+    ],
+    [
+      "Cognição e Reabilitação Cognitiva",
+      "Reabilitação e cuidado",
+      [
+        "Atenção e controle de distrações",
+        "Memória e aprendizagem",
+        "Planejamento e organização",
+        "Flexibilidade e resolução de problemas",
+        "Cognição nas atividades diárias",
+        "Pistas e estratégias externas",
+        "Organização do ambiente",
+        "Transferência das estratégias para a rotina"
+      ],
+      "Demandas executivas das tarefas",
+      "Reavaliação em diferentes contextos",
+      "Compare estratégias para lembrar compromissos considerando as escolhas e os hábitos da pessoa."
+    ],
+    [
+      "Comunicação Aumentativa e Alternativa",
+      "Comunicação e acessibilidade",
+      [
+        "Formas de expressão e compreensão",
+        "Comunicação multimodal",
+        "Pranchas e símbolos",
+        "Recursos de baixa e alta tecnologia",
+        "Acesso motor e posicionamento",
+        "Parceiros de comunicação",
+        "Vocabulário vinculado ao cotidiano",
+        "Decisões e participação social"
+      ],
+      "Preferências comunicacionais",
+      "Uso do recurso nos ambientes habituais",
+      "Relacione a escolha de símbolos às mensagens que a pessoa deseja comunicar."
+    ],
+    [
+      "Grupos e Oficinas em Terapia Ocupacional",
+      "Recursos e avaliação",
+      [
+        "Objetivos do grupo",
+        "Composição e enquadre",
+        "Escolha compartilhada das propostas",
+        "Coordenação e circulação da palavra",
+        "Papéis e cooperação",
+        "Conflitos e mediação",
+        "Pertencimento e vínculos",
+        "Registro e avaliação do processo"
+      ],
+      "Acessibilidade das atividades coletivas",
+      "Participação e produção de sentidos",
+      "Analise uma oficina considerando quem decide, quem participa e quais barreiras aparecem."
+    ],
+    [
+      "Arte, Cultura e Processos Criativos",
+      "Recursos e avaliação",
+      [
+        "Criação e expressão",
+        "Materiais e experimentação",
+        "Experiências corporais",
+        "Narrativas e produções culturais",
+        "Cultura e território",
+        "Acesso aos espaços culturais",
+        "Autoria e escolhas",
+        "Sentidos do fazer coletivo"
+      ],
+      "Relações entre processo e produto",
+      "Diversidade dos repertórios culturais",
+      "Compare uma proposta escolhida pelo grupo com uma atividade definida sem escuta dos participantes."
+    ],
+    [
+      "Saúde da Mulher e Cotidiano",
+      "Ciclos de vida",
+      [
+        "Papéis e divisão do trabalho",
+        "Cuidado e sobrecarga cotidiana",
+        "Transformações nas rotinas",
+        "Redes de apoio",
+        "Autonomia e participação",
+        "Acessibilidade no cuidado",
+        "Violência e articulação da rede",
+        "Escuta e acolhimento"
+      ],
+      "Gênero e oportunidades de participação",
+      "Projetos de vida e atividades valorizadas",
+      "Mapeie uma rotina considerando cuidado, trabalho, descanso e possibilidades de escolha."
+    ],
+    [
+      "Atenção Domiciliar e Cuidado Familiar",
+      "Saúde e território",
+      [
+        "Conhecimento do ambiente doméstico",
+        "Rotinas e modos de cuidado",
+        "Participação dos familiares",
+        "Demandas do cuidador",
+        "Adaptações no domicílio",
+        "Comunicação com a equipe",
+        "Redes de suporte",
+        "Continuidade e reavaliação"
+      ],
+      "Negociação de mudanças possíveis",
+      "Privacidade e respeito ao modo de viver",
+      "Organize uma visita acadêmica com perguntas sobre prioridades, barreiras e apoios no cotidiano."
+    ],
+    [
+      "Mobilidade, Transporte e Participação Comunitária",
+      "Sociedade e direitos",
+      [
+        "Deslocamentos no território",
+        "Transporte e acessibilidade",
+        "Planejamento de trajetos",
+        "Orientação e circulação",
+        "Barreiras físicas e comunicacionais",
+        "Recursos de mobilidade",
+        "Acesso a estudo e trabalho",
+        "Participação em espaços comunitários"
+      ],
+      "Relação entre trajeto e rotina",
+      "Segurança e escolhas no deslocamento",
+      "Analise o percurso até um serviço e identifique barreiras que permanecem mesmo com vaga disponível."
+    ],
+    [
+      "Lazer, Esporte e Participação Social",
+      "Ciclos de vida",
+      [
+        "Interesses e escolhas de lazer",
+        "Brincadeiras e jogos",
+        "Práticas corporais e esportivas",
+        "Acesso a equipamentos e espaços",
+        "Adaptações e apoios",
+        "Relações com pares",
+        "Rotinas e tempo disponível",
+        "Participação comunitária"
+      ],
+      "Sentido das atividades de lazer",
+      "Direito ao descanso e à convivência",
+      "Construa uma proposta que considere preferências, acesso ao espaço e possibilidade de participação."
+    ],
+    [
+      "Gestão e Organização de Serviços",
+      "Pesquisa e saúde coletiva",
+      [
+        "Necessidades e demanda do território",
+        "Organização dos fluxos de cuidado",
+        "Acolhimento e acesso",
+        "Planejamento de ações",
+        "Trabalho e comunicação em equipe",
+        "Indicadores de acompanhamento",
+        "Avaliação dos processos",
+        "Participação dos usuários"
+      ],
+      "Continuidade entre pontos da rede",
+      "Recursos e prioridades de organização",
+      "Relacione uma barreira de acesso ao fluxo do serviço e proponha um indicador para acompanhá-la."
+    ],
+    [
+      "Prática Baseada em Evidências",
+      "Pesquisa e saúde coletiva",
+      [
+        "Formulação de perguntas",
+        "Busca de estudos",
+        "Delineamentos e limites",
+        "Qualidade e pertinência da evidência",
+        "Experiência e contexto profissional",
+        "Valores e preferências da pessoa",
+        "Aplicabilidade dos resultados",
+        "Avaliação das decisões"
+      ],
+      "Incerteza e interpretação crítica",
+      "Integração entre fontes e realidade do cuidado",
+      "Compare uma recomendação encontrada na literatura às condições e prioridades do caso."
+    ],
+    [
+      "Documentação e Raciocínio em Terapia Ocupacional",
+      "Fundamentos profissionais",
+      [
+        "Descrição da demanda",
+        "Perfil e prioridades ocupacionais",
+        "Observação e interpretação",
+        "Hipóteses de avaliação",
+        "Objetivos e estratégias",
+        "Registro da resposta",
+        "Comunicação da continuidade",
+        "Proteção das informações"
+      ],
+      "Resultados e reavaliação",
+      "Coerência entre registro e ação realizada",
+      "Reescreva um registro genérico descrevendo contexto, ação, resposta e próximo passo."
+    ]
+  ],
+  "refs": [
+    [
+      "Reconhecimento profissional",
+      "BRASIL. Decreto-Lei nº 938, de 13 de outubro de 1969. Provê sobre as profissões de fisioterapeuta e terapeuta ocupacional, e dá outras providências. Diário Oficial da União: seção 1, Brasília, DF, 14 out. 1969.",
+      "Reconhecimento das profissões e marcos do exercício profissional.",
+      "Brasil (1969)"
+    ],
+    [
+      "Organização e fiscalização profissional",
+      "BRASIL. Lei nº 6.316, de 17 de dezembro de 1975. Cria o Conselho Federal e os Conselhos Regionais de Fisioterapia e Terapia Ocupacional e dá outras providências. Diário Oficial da União: seção 1, Brasília, DF, 18 dez. 1975.",
+      "Conselhos profissionais, organização e fiscalização do exercício.",
+      "Brasil (1975)"
+    ],
+    [
+      "Atividade física e participação",
+      "WORLD HEALTH ORGANIZATION. WHO guidelines on physical activity and sedentary behaviour. Geneva: World Health Organization, 2020.",
+      "Atividade física, comportamento sedentário e saúde ao longo da vida.",
+      "World Health Organization (2020)"
+    ]
+  ],
+  "flash": [
+    [
+      "Atividades diárias",
+      "Realizar uma tarefa sem ajuda significa que ela é significativa?",
+      "Não. Independência na realização e significado são dimensões diferentes; a análise inclui escolhas, contexto e relevância no cotidiano."
+    ],
+    [
+      "Modelos",
+      "Um modelo de prática e um recurso são a mesma coisa?",
+      "Não. O modelo organiza conceitos e perguntas; o recurso é um meio utilizado em uma proposta vinculada aos objetivos."
+    ],
+    [
+      "Leitura crítica",
+      "Uma pesquisa responde a qualquer situação de cuidado?",
+      "Não. A pertinência depende da pergunta, do método, dos participantes, do contexto e das condições de aplicação."
+    ],
+    [
+      "Documentação",
+      "Por que separar observação e interpretação?",
+      "Porque a descrição do acontecimento permite discutir hipóteses e compreender a base do raciocínio registrado."
+    ],
+    [
+      "Participação",
+      "Disponibilizar um recurso garante sua utilização?",
+      "Não. Conforto, acesso, manutenção, preferências e condições do ambiente influenciam o uso."
+    ],
+    [
+      "Rede",
+      "Encaminhar para outro serviço encerra o cuidado?",
+      "A continuidade requer articulação, responsabilidades e compartilhamento das informações pertinentes."
+    ],
+    [
+      "Cuidado",
+      "Autocuidado é apenas uma sequência de movimentos?",
+      "Não. Inclui escolhas, hábitos, privacidade, significado, ambiente e apoios disponíveis."
+    ],
+    [
+      "Pesquisa",
+      "Qual a função da referência no argumento?",
+      "Identificar a fonte consultada e permitir relacionar a afirmação às ideias ou aos resultados que a fundamentam."
+    ]
+  ],
+  "more": [
+    "Registro de dúvidas da disciplina",
+    "Quadro de prioridades acadêmicas",
+    "Planejamento de seminários em grupo",
+    "Roteiro de discussão de caso",
+    "Comparação entre referenciais teóricos",
+    "Organização de leituras por tema",
+    "Quadro de barreiras e facilitadores",
+    "Registro de apoios à participação",
+    "Roteiro de análise do cotidiano",
+    "Planejamento de devolutivas acadêmicas",
+    "Organização de observações de campo",
+    "Revisão de coerência do projeto",
+    "Preparação da apresentação científica",
+    "Relação entre objetivos e resultados",
+    "Organização das fontes do relatório"
+  ],
+  "tables": [
+    [
+      "Da observação à participação",
+      [
+        [
+          "Brincar",
+          "Interesse, iniciativa e relações",
+          "Escolha compartilhada de materiais e regras"
+        ],
+        [
+          "Vestir-se",
+          "Etapas, preferências e tipo de ajuda",
+          "Apoios que preservam a decisão da criança"
+        ],
+        [
+          "Escola",
+          "Acesso, convivência e demandas",
+          "Ajustes no ambiente e na organização da rotina"
+        ]
+      ]
+    ],
+    [
+      "Escolher o recurso com um objetivo",
+      [
+        [
+          "Graduar",
+          "Modificar a exigência",
+          "Aumentar etapas quando isso corresponde ao objetivo"
+        ],
+        [
+          "Adaptar",
+          "Reorganizar condições",
+          "Ajustar utensílios, tempo ou forma de acesso"
+        ],
+        [
+          "Acompanhar",
+          "Verificar os efeitos",
+          "Observar participação, esforço e satisfação"
+        ]
+      ]
+    ],
+    [
+      "Antes, durante e depois da atividade",
+      [
+        [
+          "Antes",
+          "Reconhecer riscos",
+          "Organizar materiais, espaço e apoio necessário"
+        ],
+        [
+          "Durante",
+          "Observar segurança",
+          "Acompanhar respostas e interromper diante de intercorrência"
+        ],
+        [
+          "Depois",
+          "Registrar e prevenir",
+          "Comunicar a ocorrência e rever as condições da atividade"
+        ]
+      ]
+    ],
+    [
+      "Do dado ao planejamento",
+      [
+        [
+          "Descrever",
+          "Quem, onde e quando?",
+          "Definir população, local e período"
+        ],
+        [
+          "Interpretar",
+          "O que o indicador permite concluir?",
+          "Conferir definição e denominador"
+        ],
+        [
+          "Planejar",
+          "Que necessidade precisa de resposta?",
+          "Articular dados, escuta e recursos do território"
+        ]
+      ]
+    ],
+    [
+      "Conceito, finalidade e responsabilidade",
+      [
+        [
+          "Ocupação",
+          "Fazer situado na vida",
+          "Investigar sentidos, escolhas e contexto"
+        ],
+        [
+          "Modelo",
+          "Organizar o raciocínio",
+          "Explicitar as relações usadas na análise"
+        ],
+        [
+          "Ética",
+          "Orientar decisões",
+          "Considerar direitos, deveres e efeitos da conduta"
+        ]
+      ]
+    ]
+  ]
+}

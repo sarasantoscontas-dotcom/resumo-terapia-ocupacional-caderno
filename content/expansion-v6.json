@@ -1,0 +1,424 @@
+{
+  "courses": [
+    {
+      "extra": [
+        "Classificadores e organização espacial",
+        "Interação entre sinalizantes e turnos de comunicação"
+      ],
+      "application": "Relacionar comunicação visual e acolhimento sem substituir o trabalho do intérprete."
+    },
+    {
+      "extra": [
+        "Respostas fisiológicas ao esforço",
+        "Integração entre sistemas e regulação corporal"
+      ],
+      "application": "Relacionar demanda da atividade, esforço e respostas do organismo."
+    },
+    {
+      "extra": [
+        "Organização da cintura pélvica",
+        "Anatomia de superfície e referências corporais"
+      ],
+      "application": "Identificar estruturas envolvidas em alcançar, vestir-se e transportar objetos."
+    },
+    {
+      "extra": [
+        "Atenção, memória e redes neurais",
+        "Organização sensório-motora"
+      ],
+      "application": "Relacionar funções e observações do desempenho sem deduzir capacidades apenas da lesão."
+    },
+    {
+      "extra": [
+        "Ciclo celular e renovação dos tecidos",
+        "Relações entre metabolismo e atividade"
+      ],
+      "application": "Conectar a organização microscópica aos processos de manutenção e reparo."
+    },
+    {
+      "extra": [
+        "Centro de massa e base de suporte",
+        "Relação entre postura e demanda da tarefa"
+      ],
+      "application": "Comparar o movimento ao alcançar objetos em alturas e posições diferentes."
+    },
+    {
+      "extra": [
+        "Mediação social e aprendizagem",
+        "Transições do ciclo de vida"
+      ],
+      "application": "Analisar como relações e experiências influenciam o envolvimento no cotidiano."
+    },
+    {
+      "extra": [
+        "Exploração dos objetos e do espaço",
+        "Variações nas oportunidades de desenvolvimento"
+      ],
+      "application": "Observar a participação em uma brincadeira, considerando contexto e apoios."
+    },
+    {
+      "extra": [
+        "Devolutiva e verificação de entendimento",
+        "Comunicação alternativa e tomada de decisão"
+      ],
+      "application": "Transformar perguntas fechadas em perguntas que acolham escolhas e narrativas."
+    },
+    {
+      "extra": [
+        "Medicalização e normalização",
+        "Experiências de cuidado e relações institucionais"
+      ],
+      "application": "Relacionar uma barreira de participação às condições sociais e culturais."
+    },
+    {
+      "extra": [
+        "Reconhecimento e regulamentação profissional",
+        "Relações entre práticas, instituições e movimentos sociais"
+      ],
+      "application": "Construir uma linha histórica que conecte acontecimentos e mudanças nas práticas."
+    },
+    {
+      "extra": [
+        "Conflitos de valores no cuidado",
+        "Direitos e responsabilidades nas decisões"
+      ],
+      "application": "Separar fatos, direitos envolvidos e justificativa em uma situação ética."
+    },
+    {
+      "extra": [
+        "Volição, hábitos e papéis",
+        "Ajuste entre pessoa, ambiente e ocupação"
+      ],
+      "application": "Comparar como dois referenciais organizam perguntas sobre o mesmo caso."
+    },
+    {
+      "extra": [
+        "Demandas processuais e organização temporal",
+        "Participação e satisfação durante a realização"
+      ],
+      "application": "Comparar duas formas de executar a mesma atividade e justificar as adaptações."
+    },
+    {
+      "extra": [
+        "Planejamento e coordenação de oficinas",
+        "Sentidos atribuídos aos materiais"
+      ],
+      "application": "Relacionar a proposta ao interesse da pessoa e ao resultado esperado."
+    },
+    {
+      "extra": [
+        "Validade, confiabilidade e responsividade",
+        "Reavaliação e interpretação das mudanças"
+      ],
+      "application": "Escolher informações de avaliação coerentes com a pergunta e o objetivo."
+    },
+    {
+      "extra": [
+        "Desenho universal e participação",
+        "Acompanhamento da utilização do recurso"
+      ],
+      "application": "Examinar conforto, disponibilidade e significado do recurso no ambiente de uso."
+    },
+    {
+      "extra": [
+        "Distribuição de pressão e proteção",
+        "Rotina de uso e observação de intercorrências"
+      ],
+      "application": "Relacionar objetivos de posicionamento, atividade desejada e acompanhamento."
+    },
+    {
+      "extra": [
+        "Transições entre casa, escola e comunidade",
+        "Participação do adolescente nas decisões"
+      ],
+      "application": "Organizar objetivos vinculados ao brincar, à rotina e aos projetos de vida."
+    },
+    {
+      "extra": [
+        "Demandas sensoriais na escola",
+        "Relações entre percepção, movimento e ambiente"
+      ],
+      "application": "Descrever a situação e as respostas observadas antes de formular hipóteses."
+    },
+    {
+      "extra": [
+        "Planejamento motor e funções executivas",
+        "Aprendizagem e reorganização de estratégias"
+      ],
+      "application": "Analisar a realização de uma tarefa cotidiana e os apoios que favorecem participação."
+    },
+    {
+      "extra": [
+        "Organização de pausas e proteção nas atividades",
+        "Participação em tarefas domésticas e produtivas"
+      ],
+      "application": "Comparar demandas de uma atividade e alternativas para reduzir esforço e sobrecarga."
+    },
+    {
+      "extra": [
+        "Projetos terapêuticos compartilhados",
+        "Moradia, circulação e reconstrução de vínculos"
+      ],
+      "application": "Articular uma ocupação valorizada aos apoios e às oportunidades no território."
+    },
+    {
+      "extra": [
+        "Estigma e interpretação das manifestações",
+        "Relações entre sintomas, experiência e cotidiano"
+      ],
+      "application": "Descrever manifestações observadas sem reduzir a pessoa a um rótulo diagnóstico."
+    },
+    {
+      "extra": [
+        "Envelhecimento ativo e participação",
+        "Cuidadores, escolhas e organização dos apoios"
+      ],
+      "application": "Comparar rotinas e projetos de pessoas idosas com histórias e contextos diferentes."
+    },
+    {
+      "extra": [
+        "Impactos da internação nos papéis",
+        "Comunicação nas transições assistenciais"
+      ],
+      "application": "Planejar a discussão de um caso da internação à retomada do cotidiano."
+    },
+    {
+      "extra": [
+        "Escolhas e prioridades da pessoa",
+        "Participação em atividades valorizadas"
+      ],
+      "application": "Relacionar conforto, energia disponível e sentido da ocupação proposta."
+    },
+    {
+      "extra": [
+        "Mediação para acesso à educação e ao trabalho",
+        "Ações coletivas e articulação intersetorial"
+      ],
+      "application": "Mapear redes de apoio e barreiras à circulação de um grupo no território."
+    },
+    {
+      "extra": [
+        "Acesso a materiais e formas de participação",
+        "Construção conjunta de apoios na escola"
+      ],
+      "application": "Analisar uma rotina escolar considerando estudante, professores, materiais e espaço."
+    },
+    {
+      "extra": [
+        "Relações entre trabalho e outras ocupações",
+        "Acolhimento e acompanhamento no retorno laboral"
+      ],
+      "application": "Distinguir tarefa prescrita e atividade real em uma situação de trabalho."
+    },
+    {
+      "extra": [
+        "Financiamento e responsabilidades de gestão",
+        "Cuidado compartilhado e continuidade"
+      ],
+      "application": "Relacionar uma necessidade de cuidado aos pontos da rede e aos princípios do SUS."
+    },
+    {
+      "extra": [
+        "Medidas de tendência central e dispersão",
+        "Leitura de gráficos e comparação entre grupos"
+      ],
+      "application": "Conferir definições, população e período antes de interpretar um indicador."
+    },
+    {
+      "extra": [
+        "Prevenção de contaminação cruzada",
+        "Organização da resposta e comunicação da ocorrência"
+      ],
+      "application": "Identificar riscos de uma oficina e planejar medidas preventivas antes da atividade."
+    },
+    {
+      "extra": [
+        "Acesso aos equipamentos do território",
+        "Participação comunitária e planejamento local"
+      ],
+      "application": "Relacionar indicadores, escuta da população e organização de uma ação coletiva."
+    },
+    {
+      "extra": [
+        "Adesão e compreensão das orientações",
+        "Efeitos observados nas atividades diárias"
+      ],
+      "application": "Registrar mudanças de atenção, equilíbrio ou disposição para comunicar à equipe."
+    },
+    {
+      "extra": [
+        "Apoios para decisão e vida independente",
+        "Inclusão em educação, trabalho e lazer"
+      ],
+      "application": "Relacionar barreiras, preferências e direitos às oportunidades de participação."
+    },
+    {
+      "extra": [
+        "Gênero e expectativas sobre o cotidiano",
+        "Acolhimento de demandas e escolhas"
+      ],
+      "application": "Construir perguntas respeitosas que preservem privacidade e autonomia."
+    },
+    {
+      "extra": [
+        "Critérios de seleção da literatura",
+        "Coerência entre pergunta, método e conclusão"
+      ],
+      "application": "Organizar um quadro de leitura com resultados, limites e contribuição para o tema."
+    }
+  ],
+  "semesters": [
+    {
+      "focus": "Relacionar estruturas, funções e ocupações.",
+      "practice": "Monte um mapa entre uma estrutura anatômica e uma atividade cotidiana.",
+      "review": "Conceitos de ocupação e atividade; organização celular; linguagem e comunicação."
+    },
+    {
+      "focus": "Conectar funcionamento corporal e experiências de desenvolvimento.",
+      "practice": "Compare as demandas motoras, cognitivas e sociais de uma brincadeira.",
+      "review": "Homeostase; comunicação neural; aprendizagem e relações de cuidado."
+    },
+    {
+      "focus": "Descrever a atividade antes de propor mudanças.",
+      "practice": "Escolha uma tarefa, separe etapas e observe materiais, espaço e tempo.",
+      "review": "Demandas da atividade; movimentos; acessibilidade e sentidos do fazer."
+    },
+    {
+      "focus": "Justificar o que observar e como organizar os objetivos.",
+      "practice": "Organize perfil, hipótese e objetivo de um caso acadêmico, distinguindo fatos e interpretação.",
+      "review": "Modelos de prática; instrumentos; consentimento, registro e comunicação."
+    },
+    {
+      "focus": "Compreender a participação em casa, na escola e na comunidade.",
+      "practice": "Construa um quadro de barreiras e apoios em uma rotina escolhida com o estudante.",
+      "review": "Brincar; organização escolar; comunicação; seleção e utilização de recursos."
+    },
+    {
+      "focus": "Relacionar função, desempenho e escolhas na reabilitação.",
+      "practice": "Compare duas estratégias para a mesma tarefa, considerando esforço, segurança e contexto.",
+      "review": "Atividades de vida diária; adaptação; posicionamento e prevenção de riscos."
+    },
+    {
+      "focus": "Articular necessidades do cotidiano e recursos da rede.",
+      "practice": "Mapeie serviços, espaços de convivência e barreiras de circulação em um território.",
+      "review": "Cuidado em liberdade; redes de suporte; indicadores e participação comunitária."
+    },
+    {
+      "focus": "Respeitar singularidades, prioridades e transições do cuidado.",
+      "practice": "Descreva uma ocupação valorizada e os apoios para sua continuidade em outro contexto.",
+      "review": "Envelhecimento; hospitalização; conforto; trabalho e projetos de vida."
+    },
+    {
+      "focus": "Sustentar decisões com observações e fontes.",
+      "practice": "Organize um quadro que relacione pergunta, evidências, alternativas e resultados esperados.",
+      "review": "Método; leitura crítica; análise de casos e discussão com supervisão."
+    },
+    {
+      "focus": "Integrar os conhecimentos e comunicar o raciocínio.",
+      "practice": "Apresente uma análise com contexto, pergunta, base teórica, percurso e conclusão.",
+      "review": "Ética; documentação; articulação da rede e planejamento da formação continuada."
+    }
+  ],
+  "tagGroups": {
+    "Conteúdos para estudar": [
+      "Fundamentos da Terapia Ocupacional",
+      "Ocupação e cotidiano",
+      "Brincar e desenvolvimento",
+      "Participação escolar",
+      "Autocuidado na infância",
+      "Adolescência e projetos de vida",
+      "Anatomia do membro superior",
+      "Preensão e destreza",
+      "Homeostase e fisiologia",
+      "Neuroanatomia funcional",
+      "Aprendizagem e memória",
+      "Cinesiologia aplicada",
+      "Análise das demandas da atividade",
+      "Graduação de atividades",
+      "Adaptação de materiais",
+      "Recursos expressivos",
+      "Atividades corporais",
+      "Grupos e oficinas",
+      "Modelos de prática",
+      "Volição, hábitos e papéis",
+      "Perfil ocupacional",
+      "Avaliação do desempenho",
+      "Tecnologia assistiva",
+      "Comunicação acessível",
+      "Libras e cultura surda",
+      "Saúde mental e cotidiano",
+      "Cuidado em liberdade",
+      "Gerontologia e participação",
+      "Reabilitação neurológica",
+      "Ortopedia e conservação de energia",
+      "Cuidados paliativos",
+      "Saúde do trabalhador",
+      "SUS e redes de atenção",
+      "Epidemiologia e indicadores",
+      "Ética e consentimento",
+      "Acessibilidade e direitos"
+    ],
+    "Para organizar os estudos": [
+      "Revisar antes da prova",
+      "Comparar conceitos próximos",
+      "Relacionar teoria e cotidiano",
+      "Retomar dúvidas por assunto",
+      "Estudar com perguntas e respostas",
+      "Montar quadros comparativos",
+      "Ler com objetivos definidos",
+      "Conectar resumos e flashcards",
+      "Separar dúvida de dificuldade",
+      "Planejar a revisão da semana",
+      "Organizar os próximos prazos",
+      "Preparar seminários por tema",
+      "Registrar exemplos da aula",
+      "Distribuir leitura e revisão",
+      "Visualizar as prioridades",
+      "Reencontrar o assunto estudado",
+      "Preparar perguntas para a aula",
+      "Revisar com mapas de conceitos",
+      "Acompanhar avaliações e devolutivas",
+      "Relacionar conteúdos entre disciplinas"
+    ],
+    "Pesquisa, trabalhos e TCC": [
+      "Tema de pesquisa em TO",
+      "Recorte do objeto de estudo",
+      "Pergunta de pesquisa",
+      "Justificativa com base teórica",
+      "Objetivos alinhados à pergunta",
+      "Descritores e palavras-chave",
+      "Busca e seleção da literatura",
+      "Critérios de inclusão e exclusão",
+      "Leitura crítica de artigos",
+      "Fichamento com autor e ano",
+      "Citações diretas e indiretas",
+      "Referências organizadas em ABNT",
+      "Mapa de argumentos",
+      "Quadro de estudos selecionados",
+      "Comparação de resultados",
+      "Registro das limitações",
+      "Coerência entre método e pergunta",
+      "Cronograma de escrita",
+      "Preparação para orientação",
+      "Roteiro de apresentação do TCC",
+      "Revisão de clareza do texto",
+      "Relação entre achado e conclusão"
+    ],
+    "Prática e raciocínio profissional": [
+      "Descrever o contexto da atividade",
+      "Distinguir observação e interpretação",
+      "Construir objetivos compartilhados",
+      "Investigar barreiras e facilitadores",
+      "Analisar materiais e ambiente",
+      "Comparar estratégias de intervenção",
+      "Registrar a participação",
+      "Relacionar atividade e significado",
+      "Planejar perguntas de avaliação",
+      "Discutir casos na supervisão",
+      "Organizar informações da rede",
+      "Refletir sobre escolhas éticas",
+      "Conectar prática e bibliografia",
+      "Acompanhar resultados no cotidiano"
+    ]
+  }
+}
