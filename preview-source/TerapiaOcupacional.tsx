@@ -64,7 +64,7 @@ const amostraTabs: {
 // Tour visual: páginas do caderno
 type MockRow = { title: string; meta: string; tag?: string };
 type MockTone = "emerald" | "coral" | "azure" | "violet" | "amber" | "rose" | "magenta" | "teal" | "lime" | "mustard";
-const r = (titles: string[]): MockRow[] => titles.map((title) => ({ title, meta: "Conteúdo organizado por assunto", tag: "EC" }));
+const r = (titles: string[]): MockRow[] => titles.map((title) => ({ title, meta: "Conteúdo organizado por assunto", tag: "TO" }));
 const tourPaginas: {
   kicker: string; title: string; desc: string;
   mock: { crumb: string; side: string; title: string; subtitle: string; rows: MockRow[]; accent: MockTone };
@@ -920,7 +920,7 @@ const Index = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {[
               ["Centralização","Estudos, disciplinas, grandes áreas, casos práticos, estágio, TCC, portfólio e carreira ficam num único sistema, acessível pelo navegador.","bg-vib-emerald"],
-              ["Estudo guiado por revisão espaçada","Flashcards e resumos prontos, com algoritmo SM-2 que programa o que revisar e quando — você não monta o material do zero.","bg-vib-coral"],
+              ["Estudo guiado por revisão espaçada","Flashcards e resumos prontos, com organização por tema e retomadas programadas — você não monta o material do zero.","bg-vib-coral"],
               ["Estágio sem bagunça","Diário por estágio, registro de atendimentos, supervisões, relatório, feedback do supervisor e portfólio — modelos editáveis e reutilizáveis.","bg-vib-azure"],
               ["Treino para Concursos e ENADE","Provas anteriores comentadas, simulados por instituição e conteúdo programático mapeado por grande área e edital.","bg-vib-violet"],
               ["Conteúdo de Terapia Ocupacional organizado","Fundamentos, Neuroanatomia, Análise da Atividade, Reabilitação, Saúde Mental, Tecnologia Assistiva e Ética com resumo e erros comuns.","bg-vib-rose"],
