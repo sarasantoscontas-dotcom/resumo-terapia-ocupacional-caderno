@@ -215,7 +215,7 @@ const Index = () => {
               <span className="h-2.5 w-2.5 bg-vib-coral animate-pulse-soft" />
               <span className="text-[0.7rem] tracking-[0.3em] uppercase font-bold text-ink">Caderno digital · Terapia Ocupacional</span>
             </div>
-            <h1 className="font-display text-[2.75rem] sm:text-6xl md:text-7xl lg:text-8xl xl:text-[8.5rem] leading-[0.95] md:leading-[0.88] tracking-tight text-ink text-balance mb-6 break-words hyphens-auto">
+            <h1 className="font-display text-[2.75rem] sm:text-6xl md:text-7xl lg:text-8xl xl:text-[6.6rem] leading-[0.95] md:leading-[0.88] tracking-tight text-ink text-balance mb-6 break-words">
               Acadêmicos de <span className="italic font-light text-vib-magenta">Terapia Ocupacional.</span>
             </h1>
             <p className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.1] md:leading-[1.05] tracking-tight text-ink-light text-pretty mb-8">
