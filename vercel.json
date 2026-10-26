@@ -1,13 +1,6 @@
 {
   "framework": null,
-  "installCommand": "echo \"Site estatico sem dependencias\"",
+  "installCommand": "echo \"Previa estatica sem dependencias\"",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "outputDirectory": "dist"
 }
-
